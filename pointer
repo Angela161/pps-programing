@@ -1,0 +1,15 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+  
+  int i = 2;
+  int *j = &i;
+  
+  cout<<"adress of i "<<&i<<endl;
+  cout<<" j is value of i "<<*j<<endl;
+  
+  (*j)++;
+  cout<< "increase i "<<*j<<endl;
+    return 0;
+}
